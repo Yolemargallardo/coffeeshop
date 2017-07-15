@@ -26,7 +26,7 @@ header{
 header #banner{
     width: 100%; 
     height: 100%;
-    background-image: url("img/banner.jpg");      
+    background-image: url("img/banne.jpg");      
 }
 
 .topleft {
@@ -55,7 +55,7 @@ nav a{
     transition:all 1.2s;
 
 }
-nav a :hover{
+nav a:hover{
     background: black;
     color:white;
 }
@@ -83,31 +83,24 @@ aside
 }
 
 .principal article{
-    width: 40em;height: 40em;
+    width: 75%;
     background: linear-gradient(135deg, #f3e2c7 4%,#c19e67 21%,#b68d4c 54%,#c19e67 77%,#c19e67 79%,#e9d4b3 94%);
     border-radius: 0.2em;
-    margin:2em;
-    display: flex;
-    flex-flow:column nowrap;
-    align-items:center;   
+    margin: 3em auto;  
 }
 
 .principal article .tipos{
-    width: 40em;
+    width:40em;
     height:30em;
-    text-align: center;
-}
+    }
 .principal article .tipos img{
     width: 100%;
     height: 100%;
-        display: flex;
-    flex-flow:column nowrap;
-    align-items:center;
 }
 .principal article .descripcion{
     text-align: center;
     padding: 0.2em;
-    font-size: 3em;
+    font-size: 2.5em;
 }
 
 
@@ -129,7 +122,6 @@ li{
 ol .menu{
     text-align:center;
 }
-
 
 
 
